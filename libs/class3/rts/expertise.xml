@@ -749,7 +749,7 @@
       <Restrictions />
       <SkillLevelText Flags="" Notes="" Text="+0" />
       <SkillNameText Flags="" Notes="" Text="Bonus Vitality" />
-      <Tier PointsToComplete="100">
+      <Tier PointsToComplete="150"> <!-- DEFAULT: PointsToComplete="100" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+5" />
         <Abilities />
@@ -804,7 +804,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="200">
+      <Tier PointsToComplete="300"> <!-- DEFAULT: PointsToComplete="200" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+10" />
         <Abilities>
@@ -863,7 +863,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="200">
+      <Tier PointsToComplete="300"> <!-- DEFAULT: PointsToComplete="200" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+15" />
         <Abilities>
@@ -917,7 +917,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="300">
+      <Tier PointsToComplete="450"> <!-- DEFAULT: PointsToComplete="300" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+20" />
         <Abilities />
@@ -961,7 +961,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="300">
+      <Tier PointsToComplete="450"> <!-- DEFAULT: PointsToComplete="300" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+25" />
         <Abilities />
@@ -1005,7 +1005,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="400">
+      <Tier PointsToComplete="600"> <!-- DEFAULT: PointsToComplete="400" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+30" />
         <Abilities>
@@ -1095,7 +1095,7 @@
       <Restrictions />
       <SkillLevelText Flags="" Notes="" Text="0%" />
       <SkillNameText Flags="" Notes="" Text="Recoil Reduction" />
-      <Tier PointsToComplete="100">
+      <Tier PointsToComplete="150"> <!-- DEFAULT: PointsToComplete="100" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="10%" />
         <Abilities />
@@ -1159,7 +1159,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="200">
+      <Tier PointsToComplete="300"> <!-- DEFAULT: PointsToComplete="200" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="20%" />
         <Abilities>
@@ -1231,7 +1231,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="200">
+      <Tier PointsToComplete="300"> <!-- DEFAULT: PointsToComplete="200" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="30%" />
         <Abilities>
@@ -1314,7 +1314,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="300">
+      <Tier PointsToComplete="450"> <!-- DEFAULT: PointsToComplete="300" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="40%" />
         <Abilities>
@@ -1388,7 +1388,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="300">
+      <Tier PointsToComplete="450"> <!-- DEFAULT: PointsToComplete="300" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="50%" />
         <Abilities>
@@ -1468,7 +1468,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="400">
+      <Tier PointsToComplete="600"> <!-- DEFAULT: PointsToComplete="400" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="60%" />
         <Abilities>
