@@ -14,7 +14,11 @@
           <NameText Flags="" Notes="" Text="The Basics" />
         </Ability>
       </BasicAbilities>
-      <BasicEffects />
+      <!-- START CUSTOM CODE -->
+      <BasicEffects> <!-- DEFAULT: <BasicEffects /> -->
+        <EffectConsumableStackSize StackSize="6" />
+      </BasicEffects>
+      <!-- END CUSTOM CODE -->
       <BonusNotes>
         <BonusNote RequiredVariable="Character.PenaltyNote.Cardio_CouchPotato">
           <NoteText Flags="" Notes="" Text="XP penalty from ????" />
@@ -1593,7 +1597,7 @@
         </Ability>
       </BasicAbilities>
       <BasicEffects>
-        <EffectConsumableStackSize StackSize="4" />
+        <EffectConsumableStackSize StackSize="8" /> <!-- DEFAULT: StackSize="4" -->
         <EffectGunMoveSpeed GunExpertiseId="MG Basic" />
         <EffectGunRecoil GunExpertiseId="MG Basic" />
         <EffectGunSpread GunExpertiseId="MG Basic" />
