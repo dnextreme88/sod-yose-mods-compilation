@@ -2,13 +2,13 @@
 <RTSData>
   <Group Name="Home">
     <Subgroup Name="Defense">
-      <Value Default="60" Name="BaseRange" />
-      <Value Default="40" Name="BaseFacilityRange" />
+      <Value Default="80" Name="BaseRange" /> <!-- DEFAULT: 60 -->
+      <Value Default="50" Name="BaseFacilityRange" /> <!-- DEFAULT: 40 -->
       <Value Default="1" Name="FacilityInfestationPenalty" />
       <Value Default="200" Name="FacilityInfestationRange" />
     </Subgroup>
   </Group>
   <Group Name="Enclave">
-    <Value Default="40" Name="BaseDefenseRange" />
+    <Value Default="60" Name="BaseRange" /> <!-- DEFAULT: 40 -->
   </Group>
 </RTSData>
