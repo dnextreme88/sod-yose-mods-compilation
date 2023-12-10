@@ -5891,6 +5891,10 @@
         </Inputs>
         <Outputs>
           <Display_Text Flags="" Notes="" Text="BONUS XP (Slaughter)" Type="Reward" />
+          <!-- START CUSTOM CODE -->
+          <Display_Text Flags="" Notes="" Text="INFLUENCE GAINED (Slaughter - Heavy Weapons)" Type="Reward" /> 
+          <RTSStat_Add DurationCancellable="" OutputAmount="10" OutputDuration="" OutputId="Family.Influence" PauseWhenOffline="" />
+          <!-- END CUSTOM CODE -->
         </Outputs>
       </Action>
     </Actions>
@@ -5935,6 +5939,10 @@
         </Inputs>
         <Outputs>
           <Display_Text Flags="" Notes="" Text="BONUS XP (Slaughter)" Type="Reward" />
+          <!-- START CUSTOM CODE -->
+          <Display_Text Flags="" Notes="" Text="INFLUENCE GAINED (Slaughter - Blunt Weapons)" Type="Reward" /> 
+          <RTSStat_Add DurationCancellable="" OutputAmount="10" OutputDuration="" OutputId="Family.Influence" PauseWhenOffline="" />
+          <!-- END CUSTOM CODE -->
         </Outputs>
       </Action>
     </Actions>
@@ -5979,6 +5987,10 @@
         </Inputs>
         <Outputs>
           <Display_Text Flags="" Notes="" Text="BONUS XP (Slaughter)" Type="Reward" />
+          <!-- START CUSTOM CODE -->
+          <Display_Text Flags="" Notes="" Text="INFLUENCE GAINED (Slaughter - Edged Weapons)" Type="Reward" /> 
+          <RTSStat_Add DurationCancellable="" OutputAmount="10" OutputDuration="" OutputId="Family.Influence" PauseWhenOffline="" />
+          <!-- END CUSTOM CODE -->
         </Outputs>
       </Action>
     </Actions>
