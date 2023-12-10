@@ -6,9 +6,11 @@
       <Value Default="50" Name="BaseFacilityRange" /> <!-- DEFAULT: 40 -->
       <Value Default="1" Name="FacilityInfestationPenalty" />
       <Value Default="200" Name="FacilityInfestationRange" />
+      <Value Default="80" Name="BaseDefenseRange" /> <!-- ADDED -->
     </Subgroup>
   </Group>
   <Group Name="Enclave">
     <Value Default="60" Name="BaseRange" /> <!-- DEFAULT: 40 -->
+    <Value Default="60" Name="BaseDefenseRange" /> <!-- ADDED -->
   </Group>
 </RTSData>
