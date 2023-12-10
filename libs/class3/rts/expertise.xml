@@ -5303,6 +5303,29 @@
     </GunExpertise>
   </GunExpertises>
   <Repeatables>
+    <!-- START CUSTOM CODE -->
+    <Repeatable>
+      <Challenge Event="OneShot" Number="1" Params="OneShot.Survey">
+      <DescriptionText Flags="" Notes="" Text="" />
+      <NameText Flags="" Notes="" Text="" />
+      </Challenge>
+      <Actions>
+        <Action ActionFlags="" ActionId="GivePoints_Survival" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+          <RTSActionIcon Name="" Id="" />
+          <NameText Flags="" Notes="" Text="" />
+          <Actors>
+            <Player HideWarnings="" Optional="" />
+          </Actors>
+          <Alts />
+          <Effects />
+          <Inputs />
+          <Outputs>
+            <Actor_AddExpertisePoints ActorIndex="0" Expertise="Survival" Points="25" />
+          </Outputs>
+        </Action>
+      </Actions>
+    </Repeatable>
+    <!-- END CUSTOM CODE -->
     <Repeatable>
       <Challenge Event="Kill" Number="1" Params="ItemType.Gun">
         <DescriptionText Flags="" Notes="" Text="" />
