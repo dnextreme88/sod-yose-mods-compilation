@@ -1568,7 +1568,7 @@
         <Unlocks />
       </Tier>
     </Expertise>
-    <Expertise BonusXP="" ExpertiseId="Strong" Icon="" IconId="">
+    <Expertise BonusXP="" ExpertiseId="Strong" Icon="" IconId=""> <!-- POWERHOUSE TRAIT -->
       <BasicAbilities>
         <Ability Icon="Practice" IconId="52">
           <DescriptionText Flags="" Notes="" Text="A Powerhouse wades into the middle of 'em and mixes it up hand-to-hand." />
@@ -1618,6 +1618,21 @@
         <SkillLevelText Flags="" Notes="" Text="+50%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1672,6 +1687,21 @@
           </Ability>
         </Abilities>
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1705,6 +1735,21 @@
         <SkillLevelText Flags="" Notes="" Text="+150%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1738,6 +1783,21 @@
         <SkillLevelText Flags="" Notes="" Text="+200%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1781,6 +1841,21 @@
           </Ability>
         </Abilities>
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1814,6 +1889,21 @@
         <SkillLevelText Flags="" Notes="" Text="+300%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1841,7 +1931,7 @@
         <Unlocks />
       </Tier>
     </Expertise>
-    <Expertise BonusXP="" ExpertiseId="Agile" Icon="" IconId="">
+    <Expertise BonusXP="" ExpertiseId="Agile" Icon="" IconId=""> <!-- REFLEXES TRAIT -->
       <BasicAbilities>
         <Ability Icon="Practice" IconId="52">
           <DescriptionText Flags="" Notes="" Text="If you want quicker Reflexes, you've got to take the fight up close and personal." />
@@ -1865,6 +1955,21 @@
         <SkillLevelText Flags="" Notes="" Text="+16%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1919,6 +2024,21 @@
           </Ability>
         </Abilities>
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1952,6 +2072,21 @@
         <SkillLevelText Flags="" Notes="" Text="+50%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -1985,6 +2120,21 @@
         <SkillLevelText Flags="" Notes="" Text="+66%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -2028,6 +2178,21 @@
           </Ability>
         </Abilities>
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -2061,6 +2226,21 @@
         <SkillLevelText Flags="" Notes="" Text="+100%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -2088,7 +2268,7 @@
         <Unlocks />
       </Tier>
     </Expertise>
-    <Expertise BonusXP="" ExpertiseId="Leadership" Icon="" IconId="">
+    <Expertise BonusXP="" ExpertiseId="Leadership" Icon="" IconId=""> <!-- LEADERSHIP TRAIT -->
       <BasicAbilities>
         <Ability Icon="Practice" IconId="52">
           <DescriptionText Flags="" Notes="" Text="A Gifted Leader leads from the front lines, getting into the thick of it with their people and encouraging others to be their best." />
@@ -2112,6 +2292,21 @@
         <SkillLevelText Flags="" Notes="" Text="+25%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -2156,6 +2351,21 @@
         <SkillLevelText Flags="" Notes="" Text="+40%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -2189,6 +2399,21 @@
         <SkillLevelText Flags="" Notes="" Text="+55%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -2222,6 +2447,21 @@
         <SkillLevelText Flags="" Notes="" Text="+70%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -2255,6 +2495,21 @@
         <SkillLevelText Flags="" Notes="" Text="+85%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
@@ -2288,6 +2543,21 @@
         <SkillLevelText Flags="" Notes="" Text="+100%" />
         <Abilities />
         <Actions>
+          <!-- START CUSTOM CODE -->
+          <Action ActionFlags="" ActionId="Rewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <EventRewardStat ExludeFromSummary="false" Icon="Reknown" OutputAmount="1" OutputId="Family.Renown" RewardList="General" IconId="16">
+                <DescriptionText Flags="" Notes="" Text="%+d Fame." />
+              </EventRewardStat>
+            </Outputs>
+          </Action>
+          <!-- END CUSTOM CODE -->
           <Action ActionFlags="" ActionId="UpdateEventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
             <RTSActionIcon Name="" Id="" />
             <NameText Flags="" Notes="" Text="" />
