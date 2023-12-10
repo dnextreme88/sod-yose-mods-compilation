@@ -336,7 +336,7 @@
         <Unlocks />
       </Tier>
     </Expertise>
-    <Expertise BonusXP="Character.XPBonus.Survival" ExpertiseId="Survival" Icon="" IconId="">
+    <Expertise BonusXP="Character.XPBonus.Survival" ExpertiseId="Survival" Icon="" IconId=""> <!-- WITS TRAIT -->
       <BasicAbilities>
         <Ability Icon="Practice" IconId="52">
           <DescriptionText Flags="" Notes="" Text="Sharpen your Wits by searching and scavenging." />
@@ -371,7 +371,7 @@
       <Restrictions />
       <SkillLevelText Flags="" Notes="" Text="10 seconds" />
       <SkillNameText Flags="" Notes="" Text="Scavenging Speed" />
-      <Tier PointsToComplete="100">
+      <Tier PointsToComplete="50"> <!-- DEFAULT: PointsToComplete="100" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="9 seconds" />
         <Abilities />
@@ -430,7 +430,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="200">
+      <Tier PointsToComplete="100"> <!-- DEFAULT: PointsToComplete="200" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="8 seconds" />
         <Abilities />
@@ -478,7 +478,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="200">
+      <Tier PointsToComplete="150"> <!-- DEFAULT: PointsToComplete="200" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="7 seconds" />
         <Abilities>
@@ -543,7 +543,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="300">
+      <Tier PointsToComplete="200"> <!-- DEFAULT: PointsToComplete="300" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="6 seconds" />
         <Abilities />
@@ -591,7 +591,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="300">
+      <Tier PointsToComplete="250"> <!-- DEFAULT: PointsToComplete="300" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="5 seconds" />
         <Abilities />
@@ -639,7 +639,7 @@
         </Effects>
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="400">
+      <Tier PointsToComplete="300"> <!-- DEFAULT: PointsToComplete="400" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="4 seconds" />
         <Abilities>
