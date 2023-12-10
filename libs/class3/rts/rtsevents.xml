@@ -1691,7 +1691,7 @@
         <Effects />
         <Inputs />
         <Outputs>
-          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="2m" OutputId="Status.RecentMission.Any" PauseWhenOffline="" />
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="10m" OutputId="Status.RecentMission.Any" PauseWhenOffline="" /> <!-- DEFAULT: OutputDuration="2m" -->
         </Outputs>
       </Action>
       <Action ActionFlags="" ActionId="BlackoutResourceOps" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
@@ -1720,7 +1720,7 @@
         <Effects />
         <Inputs />
         <Outputs>
-          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="5m" OutputId="Status.RecentMission.Story" PauseWhenOffline="" />
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="25m" OutputId="Status.RecentMission.Story" PauseWhenOffline="" /> <!-- DEFAULT: OutputDuration="5m" -->
         </Outputs>
       </Action>
     </Actions>
@@ -1735,7 +1735,7 @@
         <Effects />
         <Inputs />
         <Outputs>
-          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="10m" OutputId="Status.RecentMission.StoryOp" PauseWhenOffline="" />
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="50m" OutputId="Status.RecentMission.StoryOp" PauseWhenOffline="" /> <!-- DEFAULT: OutputDuration="10m" -->
         </Outputs>
       </Action>
     </Actions>
@@ -1753,7 +1753,7 @@
         <Effects />
         <Inputs />
         <Outputs>
-          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="7m" OutputId="Status.RecentMission.Neighbor" PauseWhenOffline="" />
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="10m" OutputId="Status.RecentMission.Neighbor" PauseWhenOffline="" /> <!-- DEFAULT: OutputDuration="7m" -->
         </Outputs>
       </Action>
       <Action ActionFlags="Alt" ActionId="SetDelay_ChallengeLevel_MidGame" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
