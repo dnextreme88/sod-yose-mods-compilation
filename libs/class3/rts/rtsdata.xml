@@ -1379,7 +1379,7 @@
       </Value>
     </Subgroup>
     <Subgroup Name="RideAlong">
-      <Value Default="100" Name="Cost">
+      <Value Default="50" Name="Cost"> <!-- DEFAULT: Default="100" -->
         <NameText Flags="" Notes="" Text="" />
       </Value>
       <Value Default="600" Name="TiredTimer">
