@@ -30,7 +30,7 @@
   </VehicleDef>
   <VehicleDef AccelerationRating="0.8" DurabilityRating="0.6" EntityClass="muscle_car_variant_shiny" HandlingRating="0.2" Id="muscle_car_variant_shiny" InventorySlotCount="8" MapIcon="VEHICLE" SeatCount="2" TopSpeedRating="0.8" Weight="1" IconId="109"> <!-- DEFAULT: InventorySlotCount="4" -->
     <Description Flags="" Notes="" Text="Sex. 1981. Sex. Big mustache and aviator shades. Sex. One ride to rule them all. Two faux leather seats." />
-    <DisplayName Flags="" Notes="" Text="Old-School Muscle w/Style" />
+    <DisplayName Flags="" Notes="" Text="Old-School Muscle w/Style Shiny" /> <!-- DEFAULT: Text="Old-School Muscle w/Style" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="0.8" EntityClass="PickUpNew" HandlingRating="0.6" Id="PickUpNew" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Rugged, late model farm truck with enough seats to take the family out on the weekend. Seats six in a pinch." />
@@ -38,7 +38,7 @@
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="0.8" EntityClass="PickUpNew_red" HandlingRating="0.6" Id="PickUpNew_red" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Rugged, late model farm truck with enough seats to take the family out on the weekend. Seats six in a pinch." />
-    <DisplayName Flags="" Notes="" Text="Modern Pickup" />
+    <DisplayName Flags="" Notes="" Text="Modern Pickup Red" /> <!-- DEFAULT: Text="Modern Pickup" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="PickUpNew_variant" HandlingRating="0.8" Id="PickUpNew_variant" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.8" Weight="0" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Rugged military vehicle, used domestically where diesel for the HUMMWV might be hard to come by. Six passengers." />
@@ -62,7 +62,7 @@
   </VehicleDef>
   <VehicleDef AccelerationRating="0.4" DurabilityRating="0.6" EntityClass="sportssedan_white" HandlingRating="0.4" Id="sportssedan_white" InventorySlotCount="8" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.6" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="4" -->
     <Description Flags="" Notes="" Text="Modern family sedan, stock. The registration says it's last year's model. Four seats." />
-    <DisplayName Flags="" Notes="" Text="Modern Sedan" />
+    <DisplayName Flags="" Notes="" Text="Modern Sedan White" /> <!-- DEFAULT: Text="Modern Sedan" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="0.4" EntityClass="SportsSedan_Variant" HandlingRating="0.6" Id="SportsSedan_Variant" InventorySlotCount="8" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.8" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="4" -->
     <Description Flags="" Notes="" Text="Enthusiastically modified with cheap aftermarket parts. Good top end once it gets going. Seats four high school kids." />
@@ -86,11 +86,11 @@
   </VehicleDef>
   <VehicleDef AccelerationRating="0.2" DurabilityRating="0.8" EntityClass="USBoatcar_wagon_dark" HandlingRating="0.2" Id="USBoatcar_wagon_dark" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.2" Weight="1" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Big, slow and handles like a bug stuck in molasses. Sweet fake wood sides and lots of steel. A very tough four seater." />
-    <DisplayName Flags="" Notes="" Text="Station Wagon" />
+    <DisplayName Flags="" Notes="" Text="Station Wagon Dark" /> <!-- DEFAULT: Text="Station Wagon" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.2" DurabilityRating="0.8" EntityClass="USBoatcar_wagon_tan" HandlingRating="0.2" Id="USBoatcar_wagon_tan" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.2" Weight="1" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Big, slow and handles like a bug stuck in molasses. Sweet fake wood sides and lots of steel. A very tough four seater." />
-    <DisplayName Flags="" Notes="" Text="Station Wagon" />
+    <DisplayName Flags="" Notes="" Text="Station Wagon Tan" /> <!-- DEFAULT: Text="Station Wagon" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.8" DurabilityRating="0.8" EntityClass="police_car_danforth" HandlingRating="0.8" Id="police_car_danforth" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="1.0" Weight="0" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Danforth standard police cruiser. They have great speed and handling. Seats four (two uncomfortably)." />
@@ -102,11 +102,11 @@
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="0.8" EntityClass="PickUpNew_2tone" HandlingRating="0.6" Id="PickUpNew_2tone" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Rugged, late model farm truck with enough seats to take the family out on the weekend. Seats six in a pinch." />
-    <DisplayName Flags="" Notes="" Text="Modern Pickup" />
+    <DisplayName Flags="" Notes="" Text="Modern Pickup Two Tone" /> <!-- DEFAULT: Text="Modern Pickup" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.2" DurabilityRating="0.6" EntityClass="PickUpOld_custom01" HandlingRating="0.4" Id="PickUpOld_custom01" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.4" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="A lot of time and money went in to restoring and customizing this old classic. Room for two in front and two in the bed." />
-    <DisplayName Flags="" Notes="" Text="Old Pickup" />
+    <DisplayName Flags="" Notes="" Text="Old Pickup Custom" /> <!-- DEFAULT: Text="Old Pickup" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="0.8" EntityClass="PickUpNew_flames" HandlingRating="0.6" Id="PickUpNew_flames" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="0" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Custom flame job on this rugged pick-up truck. Seats six in a pinch." />
@@ -122,19 +122,19 @@
   </VehicleDef>
   <VehicleDef AccelerationRating="0.2" DurabilityRating="0.6" EntityClass="USBoatcar_red" HandlingRating="0.2" Id="USBoatcar_red" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.2" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="The Titanic of the road, cruising (at low speeds) in a style that only 1987 Detroit could offer." />
-    <DisplayName Flags="" Notes="" Text="Classic Sedan" />
+    <DisplayName Flags="" Notes="" Text="Classic Sedan Red" />  <!-- DEFAULT: Text="Classic Sedan" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="1.0" DurabilityRating="0.2" EntityClass="muscle_car_new_checkers" HandlingRating="0.8" Id="muscle_car_new_checkers" InventorySlotCount="8" MapIcon="VEHICLE" SeatCount="2" TopSpeedRating="1.0" Weight="0" IconId="109"> <!-- DEFAULT: InventorySlotCount="4" -->
     <Description Flags="" Notes="" Text="Carbon fiber, custom paint, high end shift knob. Compensating for shortcomings can cost a TON! Two racing seats included." />
-    <DisplayName Flags="" Notes="" Text="High-End Exotic" />
+    <DisplayName Flags="" Notes="" Text="High-End Exotic New Checkers" /> <!-- DEFAULT: Text="High-End Exotic" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.2" DurabilityRating="0.6" EntityClass="USBoatcar_white" HandlingRating="0.2" Id="USBoatcar_white" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.2" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="The Titanic of the road, cruising (at low speeds) in a style that only 1987 Detroit could offer." />
-    <DisplayName Flags="" Notes="" Text="Classic Sedan" />
+    <DisplayName Flags="" Notes="" Text="Classic Sedan White" /> <!-- DEFAULT: Text="Classic Sedan" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.4" DurabilityRating="0.6" EntityClass="SportsSedan_rust" HandlingRating="0.4" Id="SportsSedan_rust" InventorySlotCount="8" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.6" Weight="2" IconId="109"> <!-- DEFAULT: InventorySlotCount="4" -->
     <Description Flags="" Notes="" Text="Modern sedan in sad condition. Four seats." />
-    <DisplayName Flags="" Notes="" Text="Rusty Sedan " />
+    <DisplayName Flags="" Notes="" Text="Rusty Sedan" />
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="0.8" EntityClass="Suv_New_bubbles" HandlingRating="0.6" Id="Suv_New_bubbles" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.6" Weight="0" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Beautiful bubble paint job on this sport utillity vehicle. Seats four." />
@@ -146,7 +146,7 @@
   </VehicleDef>
   <VehicleDef AccelerationRating="1.0" DurabilityRating="0.2" EntityClass="muscle_car_18" HandlingRating="0.8" Id="muscle_car_18" InventorySlotCount="8" MapIcon="VEHICLE" SeatCount="2" TopSpeedRating="1.0" Weight="1" IconId="109"> <!-- DEFAULT: InventorySlotCount="4" -->
     <Description Flags="" Notes="" Text="Carbon fiber, custom paint, high end shift knob. Compensating for shortcomings can cost a TON! Two racing seats included." />
-    <DisplayName Flags="" Notes="" Text="Old-School Muscle w/Style" />
+    <DisplayName Flags="" Notes="" Text="Old-School Muscle w/Style Carbon Fiber" /> <!-- DEFAULT: Text="Old-School Muscle w/Style" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.2" DurabilityRating="0.6" EntityClass="little_piggy_tow_truck" HandlingRating="0.4" Id="little_piggy_tow_truck" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="2" TopSpeedRating="0.4" Weight="0" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="Proudly driven down the streets of Marshall in every town parade. Though it's not a functional tow truck, it is often requested to haul breakdowns." />
@@ -174,7 +174,7 @@
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="0.8" EntityClass="PickUpNew_sprang" HandlingRating="0.6" Id="PickUpNew_sprang" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="0" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="One of the many rentals available from Sprang Van Rental." />
-    <DisplayName Flags="" Notes="" Text="Modern Pickup" />
+    <DisplayName Flags="" Notes="" Text="Modern Pickup Sprang Van" /> <!-- DEFAULT: Text="Modern Pickup" -->
   </VehicleDef>
   <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="SUV_new_camo" HandlingRating="0.6" Id="SUV_new_camo" InventorySlotCount="12" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.6" Weight="0" IconId="109"> <!-- DEFAULT: InventorySlotCount="6" -->
     <Description Flags="" Notes="" Text="A tough SUV, built to last through ANY type of apocalypse. Just so happened to be here for the zombie kind." />
