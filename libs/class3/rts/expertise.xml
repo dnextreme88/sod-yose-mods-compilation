@@ -6104,6 +6104,29 @@
         </Action>
       </Actions>
     </Repeatable>
+    <!-- START CUSTOM CODE -->
+    <Repeatable>
+      <Challenge Event="OneShot" Number="1" Params="OneShot.StealthKill">
+        <DescriptionText Flags="" Notes="" Text="" />
+        <NameText Flags="" Notes="" Text="" />
+      </Challenge>
+      <Actions>
+        <Action ActionFlags="" ActionId="GivePoints_Survival" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+          <RTSActionIcon Name="" Id="" />
+          <NameText Flags="" Notes="" Text="" />
+          <Actors>
+            <Player HideWarnings="" Optional="" />
+          </Actors>
+          <Alts />
+          <Effects />
+          <Inputs />
+          <Outputs>
+            <Actor_AddExpertisePoints ActorIndex="0" Expertise="Survival" Points="5" />
+          </Outputs>
+        </Action>
+      </Actions>
+    </Repeatable>
+    <!-- END CUSTOM CODE -->
     <Repeatable>
       <Challenge Event="Kill" Number="1" Params="Item.Silencer, Time.Night">
         <DescriptionText Flags="" Notes="" Text="" />
