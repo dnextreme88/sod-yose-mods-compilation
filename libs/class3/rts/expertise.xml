@@ -35,7 +35,7 @@
       <Restrictions />
       <SkillLevelText Flags="" Notes="" Text="+0" />
       <SkillNameText Flags="" Notes="" Text="Max. Stamina" />
-      <Tier PointsToComplete="400">
+      <Tier PointsToComplete="200"> <!-- DEFAULT: PointsToComplete="400" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+5" />
         <Abilities />
@@ -92,7 +92,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="400">
+      <Tier PointsToComplete="200"> <!-- DEFAULT: PointsToComplete="400" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+10" />
         <Abilities />
@@ -138,7 +138,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="600">
+      <Tier PointsToComplete="400"> <!-- DEFAULT: PointsToComplete="600" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+15" />
         <Abilities />
@@ -184,7 +184,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="600">
+      <Tier PointsToComplete="400"> <!-- DEFAULT: PointsToComplete="600" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+20" />
         <Abilities />
@@ -230,7 +230,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="800">
+      <Tier PointsToComplete="600"> <!-- DEFAULT: PointsToComplete="800" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+25" />
         <Abilities />
@@ -276,7 +276,7 @@
         <Effects />
         <Unlocks />
       </Tier>
-      <Tier PointsToComplete="800">
+      <Tier PointsToComplete="600"> <!-- DEFAULT: PointsToComplete="800" -->
         <Restrictions />
         <SkillLevelText Flags="" Notes="" Text="+30" />
         <Abilities>
