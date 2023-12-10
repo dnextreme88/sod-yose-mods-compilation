@@ -116,14 +116,14 @@
         <Effects />
         <Inputs />
         <Outputs>
-          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="25" OutputId="Family.Influence" RewardList="General" IconId="15"> <!-- DEFAULT: OutputAmount="10" -->
             <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
           </EventRewardStat>
           <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
             <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
           </EventRewardStat>
           <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
-            <NameText Flags="" Notes="" Text="RECOVER: Belongings" />
+            <NameText Flags="" Notes="" Text="RECOVER: Belongings (Ally)" /> <!-- DEFAULT: Text="RECOVER: Belongings" -->
             <TutorialText Flags="" Notes="" Text="" />
             <DescArgs>
               <EventDescArg Param="0" Type="ActorName" />
@@ -154,16 +154,20 @@
         <Effects />
         <Inputs />
         <Outputs>
+          <!-- ADDED -->
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="25" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
           <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
-            <NameText Flags="" Notes="" Text="RECOVER: Belongings" />
+            <NameText Flags="" Notes="" Text="RECOVER: Belongings (Neighbors)" /> <!-- DEFAULT: Text="RECOVER: Belongings" -->
             <TutorialText Flags="" Notes="" Text="" />
             <DescArgs>
               <EventDescArg Param="0" Type="ActorName" />
             </DescArgs>
             <Descriptions>
               <EventLogDesc>
-                <DescriptionText Flags="" Notes="" Text="We found a backpack containing the belongings of a fallen ally and brought them home. - %1$s." />
-                <SummaryText Flags="" Notes="" Text="Recovered a fallen ally's backpack" />
+                <DescriptionText Flags="" Notes="" Text="We found a backpack containing the belongings of a fallen neighbor and brought them home. - %1$s." /> <!-- DEFAULT: Text="We found a backpack containing the belongings of a fallen ally and brought them home. - %1$s." -->
+                <SummaryText Flags="" Notes="" Text="Recovered a fallen neighbor's backpack" /> <!-- DEFAULT: Text="Recovered a fallen ally's backpack" -->
               </EventLogDesc>
             </Descriptions>
             <NpcEffects>
