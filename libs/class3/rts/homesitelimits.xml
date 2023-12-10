@@ -19,7 +19,7 @@
         <MaxFuel>25</MaxFuel>
         <MaxMaterials>50</MaxMaterials>
         <MaxMedicine>25</MaxMedicine>
-        <MaxOutposts>4</MaxOutposts>
+        <MaxOutposts>8</MaxOutposts> <!-- DEFAULT: 4 -->
     </HomeSiteLimit>
     <HomeSiteLimit Size="Small">
         <RequiredPopulation>8</RequiredPopulation>
@@ -30,7 +30,7 @@
         <MaxFuel>50</MaxFuel>
         <MaxMaterials>100</MaxMaterials>
         <MaxMedicine>50</MaxMedicine>
-        <MaxOutposts>6</MaxOutposts>
+        <MaxOutposts>8</MaxOutposts> <!-- DEFAULT: 6 -->
     </HomeSiteLimit>
     <HomeSiteLimit Size="Medium">
         <RequiredPopulation>12</RequiredPopulation>
