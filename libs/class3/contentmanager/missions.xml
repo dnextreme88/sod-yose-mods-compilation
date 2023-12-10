@@ -20,16 +20,16 @@
         </Value>
       </Subgroup>
       <Subgroup Name="Reward">
-        <Value Default="5" Name="AmmoMultiplier">
+        <Value Default="12" Name="AmmoMultiplier"> <!-- DEFAULT: Default="5" -->
           <NameText Flags="" Notes="" Text="" />
         </Value>
         <Value Default="8" Name="FoodMultiplier">
           <NameText Flags="" Notes="" Text="" />
         </Value>
-        <Value Default="5" Name="FuelMultiplier">
+        <Value Default="8" Name="FuelMultiplier"> <!-- DEFAULT: Default="5" -->
           <NameText Flags="" Notes="" Text="" />
         </Value>
-        <Value Default="15" Name="MaterialsMultiplier">
+        <Value Default="25" Name="MaterialsMultiplier"> <!-- DEFAULT: Default="15" -->
           <NameText Flags="" Notes="" Text="" />
         </Value>
         <Value Default="8" Name="MedicineMultiplier">
