@@ -95,328 +95,328 @@
   <BackpackDefinitions>
     <BackpackDefinition Attachment="Small" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v12.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v12.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v01" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v01" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V1" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v13.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v13.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v02" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v02" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V2" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v15.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v15.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v03" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v03" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V3" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v16.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v16.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v04" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v04" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V4" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v17.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v17.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v05" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v05" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V5" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v18.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v18.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v06" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v06" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V6" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v19.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v19.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v07" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v07" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V7" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v20.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v20.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v08" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall_v08" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V8" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v01.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v01.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v01" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v01" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V9" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v02.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v02.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v02" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v02" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V10" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v03.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v03.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v03" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v03" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V11" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v04.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v04.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v04" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v04" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V12" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v05.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v05.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v05" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v05" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V13" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v06.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v06.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v06" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v06" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V14" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v07.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v07.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v07" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v07" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V15" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v08.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v08.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v08" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v08" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V16" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v09.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v09.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v09" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v09" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V17" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v10.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v10.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v10" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v10" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V18" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v11.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v11.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v11" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v11" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V19" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v12.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v12.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v12" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v12" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V20" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v13.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v13.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v13" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v13" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V21" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v14.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v14.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v14" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v14" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V22" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v15.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v15.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v15" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v15" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V23" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v16.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v16.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v16" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v16" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V24" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v17.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v17.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v17" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v17" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V25" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v18.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v18.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v18" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v18" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V26" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v19.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v19.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v19" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v19" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V27" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/v20.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/v20.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v20" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v20" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V28" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/dlc_02/male/human/parts/packs/small01/variant/v21.mtl" MaterialMale="characters/dlc_02/male/human/parts/packs/small01/variant/v21.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v21" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_v21" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack V29" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/army01.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/army01.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_army01" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_army01" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack Army V30" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/army02.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/army02.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_army02" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_army02" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack Army V31" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Small01" Capacity="8" MaterialFemale="characters/male/human/parts/packs/small01/variant/army03.mtl" MaterialMale="characters/male/human/parts/packs/small01/variant/army03.mtl" SprintSound="Zombies.BackpackSound.Small">
       <BackpackIcon Name="Medium" Id="2" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.6" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_army03" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10">
-        <NameText Flags="" Notes="" Text="Small Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_sml_destroy" Encumbrance="1.2" EquipSound="sounds/ui:ui_assign_bag:backpack_sml_assign" Id="BackpackSmall01_army03" UnequipSound="sounds/ui:ui_assign_bag:backpack_sml_remove" Value="10"> <!-- DEFAULT: Encumbrance="1.6" -->
+        <NameText Flags="" Notes="" Text="Small Backpack Army V32" /> <!-- DEFAULT: Text="Small Backpack" -->
         <DescriptionText Flags="" Notes="" Text="Traveling light is good, but having what you need is better." />
         <InventoryIcon Name="Medium Pack" Id="30" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/v01.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/v01.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v01" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v01" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack V1" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/v02.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/v02.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v02" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v02" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack V2" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/v03.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/v03.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v03" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v03" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack V3" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/v04.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/v04.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v04" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v04" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack V4" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/v05.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/v05.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v05" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v05" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack V5" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/v06.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/v06.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v06" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_v06" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack V6" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/army01.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/army01.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_army01" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_army01" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack Army V7" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/army02.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/army02.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_army02" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_army02" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack Army V8" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
     </BackpackDefinition>
     <BackpackDefinition Attachment="Large" Capacity="10" MaterialFemale="characters/male/human/parts/packs/large01/variant/army03.mtl" MaterialMale="characters/male/human/parts/packs/large01/variant/army03.mtl" SprintSound="Zombies.BackpackSound.Large">
       <BackpackIcon Name="Large" Id="3" />
-      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="3.3" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_army03" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20">
-        <NameText Flags="" Notes="" Text="Large Backpack" />
+      <InventoryItemData DestroySound="sounds/ui:ui_assign_bag:backpack_lrg_destroy" Encumbrance="2.6" EquipSound="sounds/ui:ui_assign_bag:backpack_lrg_assign" Id="BackpackLarge_army03" UnequipSound="sounds/ui:ui_assign_bag:backpack_lrg_remove" Value="20"> <!-- DEFAULT: Encumbrance="3.3" -->
+        <NameText Flags="" Notes="" Text="Large Backpack Army V9" /> <!-- DEFAULT: Text="Large Backpack" -->
         <DescriptionText Flags="" Notes="" Text="More carrying capacity, but it's bulky." />
         <InventoryIcon Name="Large Pack" Id="31" />
       </InventoryItemData>
