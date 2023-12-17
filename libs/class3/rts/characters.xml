@@ -4881,6 +4881,7 @@
     <Inventory>
       <Weapon Name="Hammer" />
       <Backpack Name="BackpackSmall_v04" />
+	    <Gun Ammo="10" Name="Rifle_10_22" /> <!-- ADDED -->
     </Inventory>
   </Character>
   <Character HairColor="Black" HairType="Fem07" HeadType="Fem05" Model="characters/female/human/body/buttons/variant/v03.cdf" SkinColor="Base" VoicePitch="Low" VoiceRole="DIA" PortraitHairColor="5" PortraitHairType="8" PortraitHeadType="24" PortraitSkinColor="1">
@@ -26669,6 +26670,7 @@
     </Traits>
     <Inventory>
       <Weapon Name="Hammer" />
+      <Gun Ammo="10" Name="Rifle_10_22" /> <!-- ADDED -->
     </Inventory>
   </Character>
   <Character HairColor="Base" HairType="Bald" HeadType="Lilly" Model="characters/female/human/story_characters/lilly_ritter.cdf" SkinColor="Base" VoicePitch="Normal" VoiceRole="LIL" PortraitHairColor="1" PortraitHairType="1" PortraitHeadType="12" PortraitSkinColor="1">
