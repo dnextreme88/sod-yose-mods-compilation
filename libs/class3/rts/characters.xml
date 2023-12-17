@@ -26886,7 +26886,7 @@
     <Inventory>
       <Gun Ammo="5" Name="Rifle_750_Forester" />
       <Weapon Name="Hatchet" />
-      <Backpack Name="BackpackSmall01_v01" />
+      <Backpack Name="BackpackLarge_army01" /> <!-- DEFAULT: Name="BackpackSmall01_v01" -->
       <Consumable Amount="3" Name="Food" />
       <Consumable Amount="2" Name="HealthPack" />
     </Inventory>
