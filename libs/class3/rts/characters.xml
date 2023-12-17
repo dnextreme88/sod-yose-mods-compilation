@@ -43,7 +43,8 @@
       </TraitBlock>
     </Traits>
     <Inventory>
-      <Backpack Name="BackpackSmall01_v01" />
+      <Backpack Name="BackpackLarge_v01" /> <!-- DEFAULT: Name="BackpackSmall01_v01" -->
+      <Gun Ammo="5" Name="Rifle_750_Forester" /> <!-- ADDED -->
       <Consumable Amount="1" Name="Food" />
       <Consumable Amount="1" Name="HealthPack" />
     </Inventory>
