@@ -26639,7 +26639,7 @@
     </Traits>
     <Inventory>
       <Backpack Name="BackpackSmall01_v15" />
-      <Gun Ammo="" Name="Rifle_10_22" />
+      <Gun Ammo="10" Name="Rifle_10_22" /> <!-- DEFAULT: Ammo="" -->
       <Weapon Name="Shovel" />
     </Inventory>
   </Character>
