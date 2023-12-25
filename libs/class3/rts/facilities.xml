@@ -12292,7 +12292,7 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_AmmoManufacture" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_AmmoManufacture" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="This would allow us to break down the ammo we scavenge, and manufacture the calibers we actually need. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Ammo" Id="1" />
               <NameText Flags="" Notes="" Text="Research Ammo Manufacture" />
@@ -12333,7 +12333,7 @@
                 <WantList WantList="Need.AmmoTools" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_FancyGardening" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_FancyGardening" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="This would improve yields from our gardens. REQUIRES A GARDEN." />
               <RTSActionIcon Name="Plant Up" Id="13" />
               <NameText Flags="" Notes="" Text="Research Greenhouse Gardening" />
@@ -12374,7 +12374,7 @@
                 <WantList WantList="Need.FarmingResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Biodiesel" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Biodiesel" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Would let us convert Food to Fuel. REQUIRES FOOD STORAGE FACILITY." />
               <RTSActionIcon Name="Fuel" Id="39" />
               <NameText Flags="" Notes="" Text="Research Biodiesel" />
@@ -12415,7 +12415,7 @@
                 <WantList WantList="Need.ChemistryResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_LandMine" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_LandMine" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Box Mines. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Research Box Mine" />
@@ -12467,7 +12467,7 @@
                 <WantList WantList="Need.MilitaryResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_LandMine2" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_LandMine2" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Whistling Box Mines. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Research Whistling Box Mine" />
@@ -12520,7 +12520,7 @@
                 <WantList WantList="Need.MilitaryResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Grenade" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Grenade" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Pipe Bombs. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Grenade" Id="41" />
               <NameText Flags="" Notes="" Text="Research Pipe Bomb" />
@@ -12574,7 +12574,7 @@
                 <WantList WantList="Need.ExplosivesResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Grenade2" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Grenade2" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Steel Pipe Bombs. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Grenade" Id="41" />
               <NameText Flags="" Notes="" Text="Research Steel Pipe Bomb" />
@@ -12626,7 +12626,7 @@
                 <WantList WantList="Need.ExplosivesResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Molotov_Homemade_Strong" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Molotov_Homemade_Strong" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Chemical Incendiaries. REQUIRES A MUNITIONS SHOP and MEDICAL LAB." />
               <RTSActionIcon Name="Molotov" Id="50" />
               <NameText Flags="" Notes="" Text="Research Chemical Incendiaries" />
@@ -12679,7 +12679,7 @@
                 <WantList WantList="Need.ExplosivesResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Stimulants" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Stimulants" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Would allow us to create more effective stimulants (Uses up medical supplies.) REQUIRES MEDICAL LAB." />
               <RTSActionIcon Name="Stimulant" Id="107" />
               <NameText Flags="" Notes="" Text="Research Potent Homemade Stims" />
@@ -12965,7 +12965,7 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_AmmoManufacture" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_AmmoManufacture" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="This would allow us to break down the ammo we scavenge, and manufacture the calibers we actually need. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Ammo" Id="1" />
               <NameText Flags="" Notes="" Text="Research Ammo Manufacture" />
@@ -13006,7 +13006,7 @@
                 <WantList WantList="Need.AmmoTools" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_FancyGardening" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_FancyGardening" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="This would improve yields from our gardens. REQUIRES A GARDEN." />
               <RTSActionIcon Name="Plant Up" Id="13" />
               <NameText Flags="" Notes="" Text="Research Greenhouse Gardening" />
@@ -13047,7 +13047,7 @@
                 <WantList WantList="Need.FarmingResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Biodiesel" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Biodiesel" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Would let us convert Food to Fuel. REQUIRES FOOD STORAGE FACILITY." />
               <RTSActionIcon Name="Fuel" Id="39" />
               <NameText Flags="" Notes="" Text="Research Biodiesel" />
@@ -13088,7 +13088,7 @@
                 <WantList WantList="Need.ChemistryResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_LandMine" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_LandMine" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Box Mines. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Research Box Mine" />
@@ -13140,7 +13140,7 @@
                 <WantList WantList="Need.MilitaryResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_LandMine2" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_LandMine2" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Whistling Box Mines. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Research Whistling Box Mine" />
@@ -13193,7 +13193,7 @@
                 <WantList WantList="Need.MilitaryResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Grenade" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Grenade" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Pipe Bombs. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Grenade" Id="41" />
               <NameText Flags="" Notes="" Text="Research Pipe Bomb" />
@@ -13247,7 +13247,7 @@
                 <WantList WantList="Need.ExplosivesResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Grenade2" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Grenade2" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Steel Pipe Bombs. REQUIRES A MUNITIONS SHOP." />
               <RTSActionIcon Name="Grenade" Id="41" />
               <NameText Flags="" Notes="" Text="Research Steel Pipe Bomb" />
@@ -13299,7 +13299,7 @@
                 <WantList WantList="Need.ExplosivesResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Molotov_Homemade_Strong" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Molotov_Homemade_Strong" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Unlocks the ability to create Chemical Incendiaries. REQUIRES A MUNITIONS SHOP and MEDICAL LAB." />
               <RTSActionIcon Name="Molotov" Id="50" />
               <NameText Flags="" Notes="" Text="Research Chemical Incendiaries" />
@@ -13352,7 +13352,7 @@
                 <WantList WantList="Need.ExplosivesResearch" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Research_Stimulants" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="4h" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research">
+            <Action ActionFlags="DelayOutputs" ActionId="Research_Stimulants" ActionType="Action.Research" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="4h" -->
               <DescriptionText Flags="" Notes="" Text="Would allow us to create more effective stimulants (Uses up medical supplies.) REQUIRES MEDICAL LAB." />
               <RTSActionIcon Name="Stimulant" Id="107" />
               <NameText Flags="" Notes="" Text="Research Potent Homemade Stims" />
