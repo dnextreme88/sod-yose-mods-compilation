@@ -5862,8 +5862,8 @@
                 <WantList WantList="Need.MeleePractice" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOp" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO to train survivors from another community in self-defense." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOp" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO to train survivors from another community in self-defense." /> <!-- DEFAULT: Text="Gain +3 AMMO to train survivors from another community in self-defense." -->
               <RTSActionIcon Name="School" Id="109" />
               <NameText Flags="" Notes="" Text="COMMERCE: Train Outsiders" />
               <Actors />
@@ -5874,7 +5874,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Dojo" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="3" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="8" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="3" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <EventLog DisplayType="EventBanner" EventFlags="General" Icon="School" IconId="109">
@@ -5886,7 +5886,7 @@
                   <Descriptions>
                     <EventLogDesc>
                       <DescriptionText Flags="" Notes="" Text="We opened up our Dojo to train some outsiders. Things went well. They seem more like they can handle themselves. And we improved our stockpiles. It was a win-win. - %1$s." />
-                      <SummaryText Flags="" Notes="" Text="Gained +3 Ammo." />
+                      <SummaryText Flags="" Notes="" Text="Gained +8 Ammo." /> <!-- DEFAULT: Text="Gained +3 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -9355,8 +9355,8 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
               <RTSActionIcon Name="friend_up" Id="75" />
               <NameText Flags="" Notes="" Text="COMMERCE: Biodiesel" />
               <Actors />
@@ -9368,7 +9368,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Biodiesel" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="5" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="8" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="3" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <EventLog DisplayType="EventBanner" EventFlags="General" Icon="friend_up" IconId="75">
@@ -9379,8 +9379,8 @@
                   </DescArgs>
                   <Descriptions>
                     <EventLogDesc>
-                      <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
-                      <SummaryText Flags="" Notes="" Text="Gained +5 Ammo." />
+                      <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
+                      <SummaryText Flags="" Notes="" Text="Gained +8 Ammo." /> <!-- DEFAULT: Text="Gained +3 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -9621,8 +9621,8 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
               <RTSActionIcon Name="friend_up" Id="75" />
               <NameText Flags="" Notes="" Text="COMMERCE: Biodiesel" />
               <Actors />
@@ -9634,7 +9634,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Biodiesel" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="5" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="8" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="3" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <EventLog DisplayType="EventBanner" EventFlags="General" Icon="friend_up" IconId="75">
@@ -9645,8 +9645,8 @@
                   </DescArgs>
                   <Descriptions>
                     <EventLogDesc>
-                      <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
-                      <SummaryText Flags="" Notes="" Text="Gained +5 Ammo." />
+                      <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
+                      <SummaryText Flags="" Notes="" Text="Gained +8 Ammo." /> <!-- DEFAULT: Text="Gained +3 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -10211,8 +10211,8 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
               <RTSActionIcon Name="friend_up" Id="75" />
               <NameText Flags="" Notes="" Text="COMMERCE: Biodiesel" />
               <Actors />
@@ -10224,7 +10224,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Biodiesel" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="5" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="8" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="3" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <EventLog DisplayType="EventBanner" EventFlags="General" Icon="friend_up" IconId="75">
@@ -10235,8 +10235,8 @@
                   </DescArgs>
                   <Descriptions>
                     <EventLogDesc>
-                      <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
-                      <SummaryText Flags="" Notes="" Text="Gained +5 Ammo." />
+                      <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
+                      <SummaryText Flags="" Notes="" Text="Gained +8 Ammo." /> <!-- DEFAULT: Text="Gained +3 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -10418,8 +10418,8 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
               <RTSActionIcon Name="friend_up" Id="75" />
               <NameText Flags="" Notes="" Text="COMMERCE: Biodiesel" />
               <Actors />
@@ -10431,7 +10431,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Biodiesel" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="5" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="8" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="3" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <EventLog DisplayType="EventBanner" EventFlags="General" Icon="friend_up" IconId="75">
@@ -10442,8 +10442,8 @@
                   </DescArgs>
                   <Descriptions>
                     <EventLogDesc>
-                      <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
-                      <SummaryText Flags="" Notes="" Text="Gained +5 Ammo." />
+                      <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
+                      <SummaryText Flags="" Notes="" Text="Gained +8 Ammo." /> <!-- DEFAULT: Text="Gained +3 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -10612,8 +10612,8 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
               <RTSActionIcon Name="friend_up" Id="75" />
               <NameText Flags="" Notes="" Text="COMMERCE: Biodiesel" />
               <Actors />
@@ -10625,7 +10625,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Biodiesel" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="5" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="8" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="3" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <EventLog DisplayType="EventBanner" EventFlags="General" Icon="friend_up" IconId="75">
@@ -10636,8 +10636,8 @@
                   </DescArgs>
                   <Descriptions>
                     <EventLogDesc>
-                      <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
-                      <SummaryText Flags="" Notes="" Text="Gained +5 Ammo." />
+                      <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
+                      <SummaryText Flags="" Notes="" Text="Gained +8 Ammo." /> <!-- DEFAULT: Text="Gained +3 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -10806,8 +10806,8 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOpBD" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
               <RTSActionIcon Name="friend_up" Id="75" />
               <NameText Flags="" Notes="" Text="COMMERCE: Biodiesel" />
               <Actors />
@@ -10819,7 +10819,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Biodiesel" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="5" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="8" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="3" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <EventLog DisplayType="EventBanner" EventFlags="General" Icon="friend_up" IconId="75">
@@ -10830,8 +10830,8 @@
                   </DescArgs>
                   <Descriptions>
                     <EventLogDesc>
-                      <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." />
-                      <SummaryText Flags="" Notes="" Text="Gained +5 Ammo." />
+                      <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO for creating biodiesel fuel for another group of survivors." /> <!-- DEFAULT: Text="Gain +3 AMMO for creating biodiesel fuel for another group of survivors." -->
+                      <SummaryText Flags="" Notes="" Text="Gained +8 Ammo." /> <!-- DEFAULT: Text="Gained +3 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -12258,8 +12258,8 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOp" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want_Research">
-              <DescriptionText Flags="" Notes="" Text="Gain +2 AMMO for providing library access to another group of survivors." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOp" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +4 AMMO for providing library access to another group of survivors." /> <!-- DEFAULT: Text="Gain +2 AMMO for providing library access to another group of survivors." -->
               <RTSActionIcon Name="School" Id="109" />
               <NameText Flags="" Notes="" Text="COMMERCE: Library Access" />
               <Actors />
@@ -12270,7 +12270,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Library" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="2" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="4" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="2" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <ExecuteAction ActionId="Pride" />
@@ -12282,8 +12282,8 @@
                   </DescArgs>
                   <Descriptions>
                     <EventLogDesc>
-                      <DescriptionText Flags="" Notes="" Text="Gain +2 AMMO for providing library access to another group of survivors." />
-                      <SummaryText Flags="" Notes="" Text="Gained +2 Ammo." />
+                      <DescriptionText Flags="" Notes="" Text="Gain +4 AMMO for providing library access to another group of survivors." /> <!-- DEFAULT: Text="Gain +2 AMMO for providing library access to another group of survivors." -->
+                      <SummaryText Flags="" Notes="" Text="Gained +4 Ammo." /> <!-- DEFAULT: Text="Gained +2 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -12931,8 +12931,8 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOp" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want_Research">
-              <DescriptionText Flags="" Notes="" Text="Gain +2 AMMO for providing library access to another group of survivors." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOp" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want_Research"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +4 AMMO for providing library access to another group of survivors." /> <!-- DEFAULT: Text="Gain +2 AMMO for providing library access to another group of survivors." -->
               <RTSActionIcon Name="School" Id="109" />
               <NameText Flags="" Notes="" Text="COMMERCE: Library Access" />
               <Actors />
@@ -12943,7 +12943,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.Library" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="2" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="4" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="2" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <ExecuteAction ActionId="Pride" />
@@ -12955,8 +12955,8 @@
                   </DescArgs>
                   <Descriptions>
                     <EventLogDesc>
-                      <DescriptionText Flags="" Notes="" Text="Gain +2 AMMO for providing library access to another group of survivors." />
-                      <SummaryText Flags="" Notes="" Text="Gained +2 Ammo." />
+                      <DescriptionText Flags="" Notes="" Text="Gain +4 AMMO for providing library access to another group of survivors." /> <!-- DEFAULT: Text="Gain +2 AMMO for providing library access to another group of survivors." -->
+                      <SummaryText Flags="" Notes="" Text="Gained +4 Ammo." /> <!-- DEFAULT: Text="Gained +2 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
@@ -15151,8 +15151,8 @@
                 <WantList WantList="Need.ShootingPractice" />
               </Wants>
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="TradeOp" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="90m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Gain +3 AMMO to train survivors from another community with firearms." />
+            <Action ActionFlags="DelayOutputs" ActionId="TradeOp" ActionType="Action.Practice" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0.0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="90m" -->
+              <DescriptionText Flags="" Notes="" Text="Gain +8 AMMO to train survivors from another community with firearms." /> <!-- DEFAULT: Text="Gain +3 AMMO to train survivors from another community with firearms." -->
               <RTSActionIcon Name="School" Id="109" />
               <NameText Flags="" Notes="" Text="COMMERCE: Train Outsiders" />
               <Actors />
@@ -15163,7 +15163,7 @@
                 <CheckBool InputFlags="HideAction" InputId="Status.TradeOp.ShootingPlatform" Invert="" />
               </Inputs>
               <Outputs>
-                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="3" OutputId="Stockpile.Ammo" RewardList="General" IconId="2">
+                <EventRewardStat ExludeFromSummary="false" Icon="Ammo" OutputAmount="8" OutputId="Stockpile.Ammo" RewardList="General" IconId="2"> <!-- DEFAULT: OutputAmount="3" -->
                   <DescriptionText Flags="" Notes="" Text="%+d Cases of Ammunition" />
                 </EventRewardStat>
                 <EventLog DisplayType="EventBanner" EventFlags="General" Icon="School" IconId="109">
@@ -15175,7 +15175,7 @@
                   <Descriptions>
                     <EventLogDesc>
                       <DescriptionText Flags="" Notes="" Text="We opened up our Shooting Platform to train some outsiders. Things went well. They seem more like they can handle themselves. And we improved our stockpiles. It was a win-win. - %1$s." />
-                      <SummaryText Flags="" Notes="" Text="Gained +3 Ammo." />
+                      <SummaryText Flags="" Notes="" Text="Gained +8 Ammo." /> <!-- DEFAULT: Text="Gained +3 Ammo." -->
                     </EventLogDesc>
                   </Descriptions>
                   <NpcEffects />
