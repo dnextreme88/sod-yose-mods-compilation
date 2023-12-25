@@ -13764,8 +13764,8 @@
               <Effects />
               <Inputs>
                 <VM_MultipleComponentsDamaged />
-                <Spend InputAmount="200" InputFlags="Required" InputId="Family.Influence" />
-                <Spend InputAmount="15" InputFlags="Required" InputId="Stockpile.Materials" />
+                <Spend InputAmount="150" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="200" -->
+                <Spend InputAmount="10" InputFlags="Required" InputId="Stockpile.Materials" /> <!-- DEFAULT: InputAmount="15" -->
                 <Facility_CheckBuilt Invert="" Type="Workshop" Variant="Car | Warehouse">
                   <ErrorText Flags="" Notes="" Text="Need a Machine Shop!" />
                 </Facility_CheckBuilt>
@@ -13785,7 +13785,7 @@
               <Inputs>
                 <VM_TiresDamaged />
                 <Spend InputAmount="25" InputFlags="Required" InputId="Family.Influence" />
-                <Spend InputAmount="2" InputFlags="Required" InputId="Stockpile.Materials" />
+                <Spend InputAmount="5" InputFlags="Required" InputId="Stockpile.Materials" /> <!-- DEFAULT: InputAmount="2" -->
                 <Facility_CheckBuilt Invert="" Type="Workshop" Variant="BasicB | Car | Weapon | Warehouse">
                   <ErrorText Flags="" Notes="" Text="Need a Workshop!" />
                 </Facility_CheckBuilt>
@@ -13804,7 +13804,7 @@
               <Effects />
               <Inputs>
                 <VM_DoorsDamaged />
-                <Spend InputAmount="50" InputFlags="Required" InputId="Family.Influence" />
+                <Spend InputAmount="25" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="50" -->
                 <Spend InputAmount="5" InputFlags="Required" InputId="Stockpile.Materials" />
                 <Facility_CheckBuilt Invert="" Type="Workshop" Variant="BasicB | Car | Weapon | Warehouse">
                   <ErrorText Flags="" Notes="" Text="Need a Workshop!" />
@@ -13824,7 +13824,7 @@
               <Effects />
               <Inputs>
                 <VM_BodyDamaged />
-                <Spend InputAmount="50" InputFlags="Required" InputId="Family.Influence" />
+                <Spend InputAmount="75" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="50" -->
                 <Spend InputAmount="5" InputFlags="Required" InputId="Stockpile.Materials" />
                 <Facility_CheckBuilt Invert="" Type="Workshop" Variant="BasicB | Car | Weapon | Warehouse">
                   <ErrorText Flags="" Notes="" Text="Need a Workshop!" />
@@ -13848,8 +13848,8 @@
               <Effects />
               <Inputs>
                 <VM_EngineDamaged />
-                <Spend InputAmount="100" InputFlags="Required" InputId="Family.Influence" />
-                <Spend InputAmount="8" InputFlags="Required" InputId="Stockpile.Materials" />
+                <Spend InputAmount="50" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="100" -->
+                <Spend InputAmount="5" InputFlags="Required" InputId="Stockpile.Materials" /> <!-- DEFAULT: InputAmount="8" -->
                 <Facility_CheckBuilt Invert="" Type="Workshop" Variant="Car | Warehouse">
                   <ErrorText Flags="" Notes="" Text="Need a Machine Shop!" />
                 </Facility_CheckBuilt>
