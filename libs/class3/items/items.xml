@@ -1,84 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemData>
   <AmmoDefinitions>
-    <AmmoDefinition EntityClass="shotgunshell" MaximumStackSize="30" Rare="0" Scale="6" TakeStackSize="10">
+    <AmmoDefinition EntityClass="shotgunshell" MaximumStackSize="75" Rare="0" Scale="6" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_shell_destroy" Encumbrance="0.14" EquipSound="sounds/ui:ui_assign_item:ammo_shell_assign" Id="AmmoShotgunShell" UnequipSound="sounds/ui:ui_assign_item:ammo_shell_remove" Value="1">
         <NameText Flags="" Notes="" Text="Shotgun Shells" />
         <DescriptionText Flags="" Notes="" Text="For shotguns." />
         <InventoryIcon Name="Ammo_shotgun" Id="74" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="shotgunshell_fire" MaximumStackSize="30" Rare="0" Scale="6" TakeStackSize="10">
+    <AmmoDefinition EntityClass="shotgunshell_fire" MaximumStackSize="75" Rare="0" Scale="6" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_shell_destroy" Encumbrance="0.14" EquipSound="sounds/ui:ui_assign_item:ammo_shell_assign" Id="AmmoShotgunShellFire" UnequipSound="sounds/ui:ui_assign_item:ammo_shell_remove" Value="1">
         <NameText Flags="" Notes="" Text="Incendiary Shotgun Shells" />
         <DescriptionText Flags="" Notes="" Text="Incendiary ammo for compatible shotguns." />
         <InventoryIcon Name="Ammo_DB_Shot" Id="367" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="UL_Grenade" MaximumStackSize="30" Rare="1" Scale="1.0" TakeStackSize="10">
+    <AmmoDefinition EntityClass="UL_Grenade" MaximumStackSize="75" Rare="1" Scale="1.0" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_shell_destroy" Encumbrance="0.5" EquipSound="sounds/ui:ui_assign_item:ammo_shell_assign" Id="AmmoLauncherGrenade" UnequipSound="sounds/ui:ui_assign_item:ammo_shell_remove" Value="3">
         <NameText Flags="" Notes="" Text="Grenade Launcher Ammo" />
         <DescriptionText Flags="" Notes="" Text="For grenade launchers. Obviously." />
         <InventoryIcon Name="Ammo_grenade" Id="75" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_9mm" MaximumStackSize="30" Rare="0" Scale="10" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_9mm" MaximumStackSize="75" Rare="0" Scale="10" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.02" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet9mm" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="1">
         <NameText Flags="" Notes="" Text="9 mm" />
         <DescriptionText Flags="" Notes="" Text="Small-caliber rounds for pistols, revolvers and rifles." />
         <InventoryIcon Name="Ammo_9mm" Id="65" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_22cal" MaximumStackSize="30" Rare="0" Scale="10" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_22cal" MaximumStackSize="75" Rare="0" Scale="10" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.01" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet22cal" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="1">
         <NameText Flags="" Notes="" Text=".22 caliber" />
         <DescriptionText Flags="" Notes="" Text="Small-caliber rounds for pistols, revolvers, rifles, and SMGs." />
         <InventoryIcon Name="Ammo_22LR" Id="57" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_357cal" MaximumStackSize="30" Rare="0" Scale="10" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_357cal" MaximumStackSize="75" Rare="0" Scale="10" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.04" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet357cal" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="1">
         <NameText Flags="" Notes="" Text=".357 caliber" />
         <DescriptionText Flags="" Notes="" Text="Powerful round for revolvers and some rifles." />
         <InventoryIcon Name="Ammo_357" Id="59" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_40cal" MaximumStackSize="30" Rare="0" Scale="10" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_40cal" MaximumStackSize="75" Rare="0" Scale="10" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.03" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet40cal" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="1">
         <NameText Flags="" Notes="" Text=".40 caliber" />
         <DescriptionText Flags="" Notes="" Text="Mid-range round for pistols and some submachineguns." />
         <InventoryIcon Name="Ammo_40cal" Id="60" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_44cal" MaximumStackSize="30" Rare="0" Scale="10" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_44cal" MaximumStackSize="75" Rare="0" Scale="10" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.05" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet44cal" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="1">
         <NameText Flags="" Notes="" Text=".44 caliber" />
         <DescriptionText Flags="" Notes="" Text="Powerful round primarily for revolvers and some rifles." />
         <InventoryIcon Name="Ammo_44cal" Id="61" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_45cal" MaximumStackSize="30" Rare="0" Scale="10" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_45cal" MaximumStackSize="75" Rare="0" Scale="10" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.04" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet45cal" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="1">
         <NameText Flags="" Notes="" Text=".45 caliber" />
         <DescriptionText Flags="" Notes="" Text="Powerful mid-range workhorse for pistols, some revolvers and rifles." />
         <InventoryIcon Name="Ammo_45cal" Id="62" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_50cal" MaximumStackSize="30" Rare="1" Scale="2" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_50cal" MaximumStackSize="75" Rare="1" Scale="2" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.09" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet50bmg" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="2">
         <NameText Flags="" Notes="" Text=".50 caliber" />
         <DescriptionText Flags="" Notes="" Text="Very powerful round for large frame revolvers, pistols and long range rifles." />
         <InventoryIcon Name="Ammo_50cal" Id="63" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_556mm" MaximumStackSize="30" Rare="0" Scale="10" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_556mm" MaximumStackSize="75" Rare="0" Scale="10" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.03" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet556mm" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="1">
         <NameText Flags="" Notes="" Text="5.56mm " />
         <DescriptionText Flags="" Notes="" Text="Standard NATO battle rifle caliber, includes the .223 caliber family of rounds as well." />
         <InventoryIcon Name="Ammo_556" Id="64" />
       </InventoryItemData>
     </AmmoDefinition>
-    <AmmoDefinition EntityClass="bullet_762mm" MaximumStackSize="30" Rare="0" Scale="10" TakeStackSize="10">
+    <AmmoDefinition EntityClass="bullet_762mm" MaximumStackSize="75" Rare="0" Scale="10" TakeStackSize="10"> <!-- DEFAULT: MaximumStackSize="30" -->
       <InventoryItemData DestroySound="sounds/ui:ui_assign_item:ammo_bullet_destroy" Encumbrance="0.06" EquipSound="sounds/ui:ui_assign_item:ammo_bullet_assign" Id="AmmoBullet762mm" UnequipSound="sounds/ui:ui_assign_item:ammo_bullet_remove" Value="1">
         <NameText Flags="" Notes="" Text="7.62mm " />
         <DescriptionText Flags="" Notes="" Text="Powerful round used the world over. Includes the entirety of the thirty-caliber family of rifle ammunition. Used by battle rifles and long-range rifles." />
