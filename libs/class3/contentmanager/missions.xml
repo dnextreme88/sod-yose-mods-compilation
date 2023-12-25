@@ -54230,6 +54230,7 @@
           <Building ActorFlags="" ActorName="" BuildingFlagsMask="" BuildingFlagsQuery="" HideWarnings="" NearActorIdx="1" Optional="" SearchRangeMax="500" SearchRangeMin="200" SiteTag="" />
           <Player HideWarnings="" Optional="" />
           <Building ActorFlags="Closest" ActorName="" BuildingFlagsMask="Outpost, Enclave, MissionOp, Entered" BuildingFlagsQuery="" HideWarnings="" NearActorIdx="2" Optional="" SearchRangeMax="150" SearchRangeMin="25" SiteTag="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="Trait.Voice.Playable, Trait.Status.Away, !Trait.Immune.NonStoryContent, !Trait.Status.Injury" FunctionTags="Home, Npc" HideWarnings="" Optional="" TargetEnclave="" /> <!-- ADDED -->
         </Actors>
       </MissionActors>
       <MissionOfferChoices AcceptDescText="START MISSION. Work together. Earn Trust. Make things safer." AcceptText="Yes, let's do it." DeclineDescText="CANCEL MISSION. Spend Influence to prevent the attempt. Let the community handle it later." DeclineText="Leave it be." DoNothingDescText="Delay your decision. An attempt might be made without you." DoNothingText="Not now." OfferNpc="-1" OfferScene="activity_Offer_SlayFreak" OfferSceneDecline="" OfferSceneDoNothing="activity_OfferDelay" OfferText="Help hunt the Feral Zombie?" />
@@ -54781,7 +54782,7 @@
             <Effects />
             <Inputs />
             <Outputs>
-              <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="5" OutputId="Family.Influence" RewardList="Mission" IconId="15">
+              <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="Mission" IconId="15"> <!-- DEFAULT: OutputAmount="5" -->
                 <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
               </EventRewardStat>
               <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="10" OutputId="Stat.Morale" RewardList="Mission" IconId="11">
@@ -54823,6 +54824,7 @@
             <Inputs />
             <Outputs>
               <Actor_StaminaTankModify ActorIndex="0" Amount="-3000" />
+              <Actor_StaminaTankModify ActorIndex="5" Amount="-3000" /> <!-- ADDED -->
             </Outputs>
           </Action>
           <Action ActionFlags="" ActionId="MissionOpEvent" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
@@ -55632,6 +55634,7 @@
           <Building ActorFlags="" ActorName="" BuildingFlagsMask="Outpost, Enclave, Outdoor, MissionOp, Entered" BuildingFlagsQuery="Outdoor" HideWarnings="" NearActorIdx="2" Optional="" SearchRangeMax="150" SearchRangeMin="25" SiteTag="">
             <Building ActorFlags="" ActorName="" BuildingFlagsMask="Outpost, Enclave, Outdoor, MissionOp, Entered" BuildingFlagsQuery="Outdoor" HideWarnings="" NearActorIdx="2" Optional="" SearchRangeMax="250" SearchRangeMin="25" SiteTag="" />
           </Building>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="Trait.Voice.Playable, Trait.Status.Away, !Trait.Immune.NonStoryContent, !Trait.Status.Injury" FunctionTags="Home, Npc" HideWarnings="" Optional="" TargetEnclave="" /> <!-- ADDED -->
         </Actors>
       </MissionActors>
       <MissionOfferChoices AcceptDescText="START MISSION. Work together. Earn Trust. Make things safer." AcceptText="Yes, let's do it." DeclineDescText="CANCEL MISSION. Spend Influence to prevent the attempt. Let the community handle it later." DeclineText="Leave it be." DoNothingDescText="Delay your decision. An attempt might be made without you." DoNothingText="Not now." OfferNpc="-1" OfferScene="activity_Offer_SlayFreak" OfferSceneDecline="" OfferSceneDoNothing="activity_OfferDelay" OfferText="Help hunt the Juggernaut?" />
@@ -56183,7 +56186,7 @@
             <Effects />
             <Inputs />
             <Outputs>
-              <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="5" OutputId="Family.Influence" RewardList="Mission" IconId="15">
+              <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="Mission" IconId="15"> <!-- DEFAULT: OutputAmount="5" -->
                 <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
               </EventRewardStat>
               <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="10" OutputId="Stat.Morale" RewardList="Mission" IconId="11">
@@ -56225,6 +56228,7 @@
             <Inputs />
             <Outputs>
               <Actor_StaminaTankModify ActorIndex="0" Amount="-3000" />
+              <Actor_StaminaTankModify ActorIndex="5" Amount="-3000" /> <!-- ADDED -->
             </Outputs>
           </Action>
           <Action ActionFlags="" ActionId="MissionOpEvent" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
