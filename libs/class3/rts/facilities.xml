@@ -13949,7 +13949,7 @@
               <Wants />
             </Action>
             <Action ActionFlags="DelayOutputs" ActionId="Action_Defend" ActionType="Action.Activity" ExecuteTimeStandard="0.0" OutputDelayTime="0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Increase protected range around the outpost." />
+              <DescriptionText Flags="" Notes="" Text="Increases the protected range of all current outposts for 2 hours." /> <!-- DEFAULT: Text="Increase protected range around the outpost." -->
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Set Traps for Passing Hordes" />
               <Actors>
@@ -13958,8 +13958,8 @@
               <Alts />
               <Effects />
               <Inputs>
-                <Spend InputAmount="1" InputFlags="Required" InputId="Stockpile.Fuel" />
-                <Spend InputAmount="1" InputFlags="Required" InputId="Family.Influence" />
+                <Spend InputAmount="4" InputFlags="Required" InputId="Stockpile.Fuel" /> <!-- DEFAULT: InputAmount="1" -->
+                <Spend InputAmount="75" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="1" -->
                 <CheckBool InputFlags="" InputId="!Status.Tech.Active_OutpostTrapsSet" Invert="" />
               </Inputs>
               <Outputs>
@@ -14086,7 +14086,7 @@
               <Wants />
             </Action>
             <Action ActionFlags="DelayOutputs" ActionId="Action_Defend" ActionType="Action.Activity" ExecuteTimeStandard="0.0" OutputDelayTime="0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Increase protected range around the outpost." />
+              <DescriptionText Flags="" Notes="" Text="Increases the protected range of all current outposts for 2 hours." /> <!-- DEFAULT: Text="Increase protected range around the outpost." -->
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Set Traps for Passing Hordes" />
               <Actors>
@@ -14095,8 +14095,8 @@
               <Alts />
               <Effects />
               <Inputs>
-                <Spend InputAmount="1" InputFlags="Required" InputId="Stockpile.Fuel" />
-                <Spend InputAmount="1" InputFlags="Required" InputId="Family.Influence" />
+                <Spend InputAmount="4" InputFlags="Required" InputId="Stockpile.Fuel" /> <!-- DEFAULT: InputAmount="1" -->
+                <Spend InputAmount="75" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="1" -->
                 <CheckBool InputFlags="" InputId="!Status.Tech.Active_OutpostTrapsSet" Invert="" />
               </Inputs>
               <Outputs>
@@ -14223,7 +14223,7 @@
               <Wants />
             </Action>
             <Action ActionFlags="DelayOutputs" ActionId="Action_Defend" ActionType="Action.Activity" ExecuteTimeStandard="0.0" OutputDelayTime="0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Increase protected range around the outpost." />
+              <DescriptionText Flags="" Notes="" Text="Increases the protected range of all current outposts for 2 hours." /> <!-- DEFAULT: Text="Increase protected range around the outpost." -->
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Set Traps for Passing Hordes" />
               <Actors>
@@ -14232,8 +14232,8 @@
               <Alts />
               <Effects />
               <Inputs>
-                <Spend InputAmount="1" InputFlags="Required" InputId="Stockpile.Fuel" />
-                <Spend InputAmount="1" InputFlags="Required" InputId="Family.Influence" />
+                <Spend InputAmount="4" InputFlags="Required" InputId="Stockpile.Fuel" /> <!-- DEFAULT: InputAmount="1" -->
+                <Spend InputAmount="75" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="1" -->
                 <CheckBool InputFlags="" InputId="!Status.Tech.Active_OutpostTrapsSet" Invert="" />
               </Inputs>
               <Outputs>
@@ -14360,7 +14360,7 @@
               <Wants />
             </Action>
             <Action ActionFlags="DelayOutputs" ActionId="Action_Defend" ActionType="Action.Activity" ExecuteTimeStandard="0.0" OutputDelayTime="0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Increase protected range around the outpost." />
+              <DescriptionText Flags="" Notes="" Text="Increases the protected range of all current outposts for 2 hours." /> <!-- DEFAULT: Text="Increase protected range around the outpost." -->
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Set Traps for Passing Hordes" />
               <Actors>
@@ -14369,8 +14369,8 @@
               <Alts />
               <Effects />
               <Inputs>
-                <Spend InputAmount="1" InputFlags="Required" InputId="Stockpile.Fuel" />
-                <Spend InputAmount="1" InputFlags="Required" InputId="Family.Influence" />
+                <Spend InputAmount="4" InputFlags="Required" InputId="Stockpile.Fuel" /> <!-- DEFAULT: InputAmount="1" -->
+                <Spend InputAmount="75" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="1" -->
                 <CheckBool InputFlags="" InputId="!Status.Tech.Active_OutpostTrapsSet" Invert="" />
               </Inputs>
               <Outputs>
@@ -14497,7 +14497,7 @@
               <Wants />
             </Action>
             <Action ActionFlags="DelayOutputs" ActionId="Action_Defend" ActionType="Action.Activity" ExecuteTimeStandard="0.0" OutputDelayTime="0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Increase protected range around the outpost." />
+              <DescriptionText Flags="" Notes="" Text="Increases the protected range of all current outposts for 2 hours." /> <!-- DEFAULT: Text="Increase protected range around the outpost." -->
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Set Traps for Passing Hordes" />
               <Actors>
@@ -14506,8 +14506,8 @@
               <Alts />
               <Effects />
               <Inputs>
-                <Spend InputAmount="1" InputFlags="Required" InputId="Stockpile.Fuel" />
-                <Spend InputAmount="1" InputFlags="Required" InputId="Family.Influence" />
+                <Spend InputAmount="4" InputFlags="Required" InputId="Stockpile.Fuel" /> <!-- DEFAULT: InputAmount="1" -->
+                <Spend InputAmount="75" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="1" -->
                 <CheckBool InputFlags="" InputId="!Status.Tech.Active_OutpostTrapsSet" Invert="" />
               </Inputs>
               <Outputs>
@@ -14623,7 +14623,7 @@
               <Wants />
             </Action>
             <Action ActionFlags="DelayOutputs" ActionId="Action_Defend" ActionType="Action.Activity" ExecuteTimeStandard="0.0" OutputDelayTime="0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
-              <DescriptionText Flags="" Notes="" Text="Increase protected range around the outpost." />
+              <DescriptionText Flags="" Notes="" Text="Increases the protected range of all current outposts for 2 hours." /> <!-- DEFAULT: Text="Increase protected range around the outpost." -->
               <RTSActionIcon Name="Landmine" Id="45" />
               <NameText Flags="" Notes="" Text="Set Traps for Passing Hordes" />
               <Actors>
@@ -14632,8 +14632,8 @@
               <Alts />
               <Effects />
               <Inputs>
-                <Spend InputAmount="1" InputFlags="Required" InputId="Stockpile.Fuel" />
-                <Spend InputAmount="1" InputFlags="Required" InputId="Family.Influence" />
+                <Spend InputAmount="4" InputFlags="Required" InputId="Stockpile.Fuel" /> <!-- DEFAULT: InputAmount="1" -->
+                <Spend InputAmount="75" InputFlags="Required" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="1" -->
                 <CheckBool InputFlags="" InputId="!Status.Tech.Active_OutpostTrapsSet" Invert="" />
               </Inputs>
               <Outputs>
