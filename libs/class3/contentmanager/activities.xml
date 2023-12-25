@@ -1423,14 +1423,14 @@
         <Effects />
         <Inputs />
         <Outputs>
-          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="25" OutputId="Family.Influence" RewardList="General" IconId="15"> <!-- DEFAULT: OutputAmount="10" -->
             <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
           </EventRewardStat>
           <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
             <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
           </EventRewardStat>
           <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
-            <NameText Flags="" Notes="" Text="EYES IN THE SKY: Survey Complete" />
+            <NameText Flags="" Notes="" Text="Voluntary Survey Request Complete" /> <!-- DEFAULT: Text="EYES IN THE SKY: Survey Complete" -->
             <TutorialText Flags="" Notes="" Text="" />
             <DescArgs>
               <EventDescArg Param="0" Type="ActorName" />
@@ -1447,6 +1447,9 @@
               </EventNpcEffect>
             </NpcEffects>
           </EventLog>
+          <!-- ADDED -->
+          <Actor_AddExpertisePoints ActorIndex="0" Expertise="Survival" Points="25" />
+          <Actor_AddExpertisePoints ActorIndex="0" Expertise="Leadership" Points="25" />
         </Outputs>
       </Action>
     </EventComplete>
