@@ -13912,6 +13912,21 @@
               <Outputs />
               <Wants />
             </Action>
+            <!-- START CUSTOM CODE -->
+            <Action ActionFlags="Automatic, DelayOutputs" ActionId="Bonus_Basic" ActionType="Bonus.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
+              <DescriptionText Flags="" Notes="" Text="Provides +3 beds." />
+              <RTSActionIcon Name="Bed" Id="4" />
+              <NameText Flags="" Notes="" Text="Beds" />
+              <Actors />
+              <Alts />
+              <Effects />
+              <Inputs />
+              <Outputs>
+                <RTSStat_Add DurationCancellable="" OutputAmount="3" OutputDuration="" OutputId="Capacity.Housing" PauseWhenOffline="" />
+              </Outputs>
+              <Wants />
+            </Action>
+            <!-- END CUSTOM CODE -->
             <Action ActionFlags="Automatic, Hidden" ActionId="ReviewAdvice" ActionType="Action.Background" ExecuteTimeStandard="1s" OutputDelayTime="1s" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="0" WantDelayStart="0" WantOdds="0.0" WantScene="">
               <RTSActionIcon Name="" Id="" />
               <NameText Flags="" Notes="" Text="" />
@@ -14049,6 +14064,21 @@
               <Outputs />
               <Wants />
             </Action>
+            <!-- START CUSTOM CODE -->
+            <Action ActionFlags="Automatic, DelayOutputs" ActionId="Bonus_Basic" ActionType="Bonus.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
+              <DescriptionText Flags="" Notes="" Text="Provides +3 beds." />
+              <RTSActionIcon Name="Bed" Id="4" />
+              <NameText Flags="" Notes="" Text="Beds" />
+              <Actors />
+              <Alts />
+              <Effects />
+              <Inputs />
+              <Outputs>
+                <RTSStat_Add DurationCancellable="" OutputAmount="3" OutputDuration="" OutputId="Capacity.Housing" PauseWhenOffline="" />
+              </Outputs>
+              <Wants />
+            </Action>
+            <!-- END CUSTOM CODE -->
             <Action ActionFlags="Automatic, Hidden" ActionId="ReviewAdvice" ActionType="Action.Background" ExecuteTimeStandard="1s" OutputDelayTime="1s" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="0" WantDelayStart="0" WantOdds="0.0" WantScene="">
               <RTSActionIcon Name="" Id="" />
               <NameText Flags="" Notes="" Text="" />
@@ -14186,6 +14216,21 @@
               <Outputs />
               <Wants />
             </Action>
+            <!-- START CUSTOM CODE -->
+            <Action ActionFlags="Automatic, DelayOutputs" ActionId="Bonus_Basic" ActionType="Bonus.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
+              <DescriptionText Flags="" Notes="" Text="Provides +3 beds." />
+              <RTSActionIcon Name="Bed" Id="4" />
+              <NameText Flags="" Notes="" Text="Beds" />
+              <Actors />
+              <Alts />
+              <Effects />
+              <Inputs />
+              <Outputs>
+                <RTSStat_Add DurationCancellable="" OutputAmount="3" OutputDuration="" OutputId="Capacity.Housing" PauseWhenOffline="" />
+              </Outputs>
+              <Wants />
+            </Action>
+            <!-- END CUSTOM CODE -->
             <Action ActionFlags="Automatic, Hidden" ActionId="ReviewAdvice" ActionType="Action.Background" ExecuteTimeStandard="1s" OutputDelayTime="1s" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="0" WantDelayStart="0" WantOdds="0.0" WantScene="">
               <RTSActionIcon Name="" Id="" />
               <NameText Flags="" Notes="" Text="" />
@@ -14323,6 +14368,21 @@
               <Outputs />
               <Wants />
             </Action>
+            <!-- START CUSTOM CODE -->
+            <Action ActionFlags="Automatic, DelayOutputs" ActionId="Bonus_Basic" ActionType="Bonus.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
+              <DescriptionText Flags="" Notes="" Text="Provides +3 beds." />
+              <RTSActionIcon Name="Bed" Id="4" />
+              <NameText Flags="" Notes="" Text="Beds" />
+              <Actors />
+              <Alts />
+              <Effects />
+              <Inputs />
+              <Outputs>
+                <RTSStat_Add DurationCancellable="" OutputAmount="3" OutputDuration="" OutputId="Capacity.Housing" PauseWhenOffline="" />
+              </Outputs>
+              <Wants />
+            </Action>
+            <!-- END CUSTOM CODE -->
             <Action ActionFlags="Automatic, Hidden" ActionId="ReviewAdvice" ActionType="Action.Background" ExecuteTimeStandard="1s" OutputDelayTime="1s" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="0" WantDelayStart="0" WantOdds="0.0" WantScene="">
               <RTSActionIcon Name="" Id="" />
               <NameText Flags="" Notes="" Text="" />
@@ -14460,6 +14520,21 @@
               <Outputs />
               <Wants />
             </Action>
+            <!-- START CUSTOM CODE -->
+            <Action ActionFlags="Automatic, DelayOutputs" ActionId="Bonus_Basic" ActionType="Bonus.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
+              <DescriptionText Flags="" Notes="" Text="Provides +3 beds." />
+              <RTSActionIcon Name="Bed" Id="4" />
+              <NameText Flags="" Notes="" Text="Beds" />
+              <Actors />
+              <Alts />
+              <Effects />
+              <Inputs />
+              <Outputs>
+                <RTSStat_Add DurationCancellable="" OutputAmount="3" OutputDuration="" OutputId="Capacity.Housing" PauseWhenOffline="" />
+              </Outputs>
+              <Wants />
+            </Action>
+            <!-- END CUSTOM CODE -->
             <Action ActionFlags="Automatic, Hidden" ActionId="ReviewAdvice" ActionType="Action.Background" ExecuteTimeStandard="1s" OutputDelayTime="1s" PauseWhenOffline="" WantDelay="0.0" WantDelayEnd="0" WantDelayStart="0" WantOdds="0.0" WantScene="">
               <RTSActionIcon Name="" Id="" />
               <NameText Flags="" Notes="" Text="" />
@@ -14600,6 +14675,21 @@
               </Outputs>
               <Wants />
             </Action>
+            <!-- START CUSTOM CODE -->
+            <Action ActionFlags="Automatic, DelayOutputs" ActionId="Bonus_Basic" ActionType="Bonus.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
+              <DescriptionText Flags="" Notes="" Text="Provides +3 beds." />
+              <RTSActionIcon Name="Bed" Id="4" />
+              <NameText Flags="" Notes="" Text="Beds" />
+              <Actors />
+              <Alts />
+              <Effects />
+              <Inputs />
+              <Outputs>
+                <RTSStat_Add DurationCancellable="" OutputAmount="3" OutputDuration="" OutputId="Capacity.Housing" PauseWhenOffline="" />
+              </Outputs>
+              <Wants />
+            </Action>
+            <!-- END CUSTOM CODE -->
             <Action ActionFlags="DelayOutputs" ActionId="Bonus_Locker" ActionType="Bonus.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
               <DescriptionText Flags="" Notes="" Text="A place to resupply without traveling all the way home." />
               <RTSActionIcon Name="Vault" Id="61" />
