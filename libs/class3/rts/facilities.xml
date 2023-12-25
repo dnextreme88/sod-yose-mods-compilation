@@ -46,7 +46,7 @@
               </Outputs>
               <Wants />
             </Action>
-            <Action ActionFlags="DelayOutputs" ActionId="Radio_Survivors" ActionType="Action.Broadcast" ExecuteTimeStandard="0.0" OutputDelayTime="20m" PauseWhenOffline="" WantDelay="4h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want">
+            <Action ActionFlags="DelayOutputs" ActionId="Radio_Survivors" ActionType="Action.Broadcast" ExecuteTimeStandard="0.0" OutputDelayTime="12m" PauseWhenOffline="" WantDelay="1h" WantDelayEnd="15m" WantDelayStart="2m" WantOdds="0" WantScene="activity_NewOpp_Want"> <!-- DEFAULT: OutputDelayTime="20m", WantDelay="4h" -->
               <DescriptionText Flags="" Notes="" Text="Attempt to make contact with a new group of survivors" />
               <RTSActionIcon Name="Survivors" Id="60" />
               <NameText Flags="" Notes="" Text="Offer Shelter to Survivors" />
