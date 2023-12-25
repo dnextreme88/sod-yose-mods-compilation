@@ -5895,6 +5895,7 @@
           <Enclave ActorFlags="" ActorName="Enclave.Home" EnclaveStat="" HideWarnings="" Optional="" />
           <SurveyGroup ActorFlags="" ActorName="" HideWarnings="" NearActorIdx="0" Optional="" SearchRangeMax="500.0" SearchRangeMin="0.0" />
           <Enclave ActorFlags="MissionEnclave" ActorName="" EnclaveStat="" HideWarnings="" Optional="" />
+          <Player HideWarnings="" Optional="" /> <!-- ADDED -->
         </Actors>
       </MissionActors>
       <MissionOfferChoices AcceptDescText="" AcceptText="" DeclineDescText="" DeclineText="" DoNothingDescText="" DoNothingText="" OfferNpc="-1" OfferScene="" OfferSceneDecline="" OfferSceneDoNothing="" OfferText="" />
@@ -5950,7 +5951,22 @@
             </Outputs>
           </Action>
         </MissionEvent>
-        <MissionEvent Id="Completed" />
+        <!-- START CUSTOM CODE -->
+        <!-- DEFAULT: <MissionEvent Id="Completed" /> -->
+        <MissionEvent Id="Completed">
+          <Action ActionFlags="" ActionId="Default" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+            <RTSActionIcon Name="" Id="" />
+            <NameText Flags="" Notes="" Text="" />
+            <Actors />
+            <Alts />
+            <Effects />
+            <Inputs />
+            <Outputs>
+              <Actor_AddExpertisePoints ActorIndex="3" Expertise="Survival" Points="50" />
+            </Outputs>
+          </Action>
+        </MissionEvent>
+        <!-- END CUSTOM CODE -->
       </MissionEvents>
       <ObjectiveBuckets>
         <ObjectiveBucket Label="">
@@ -6921,6 +6937,7 @@
             <Inputs />
             <Outputs>
               <Actor_EvolveTraits ActorIndex="4" Event="PRIDE" EventLogOutput="Mission" />
+              <Actor_AddExpertisePoints ActorIndex="4" Expertise="Survival" Points="50" /> <!-- ADDED -->
             </Outputs>
           </Action>
           <Action ActionFlags="Alt" ActionId="PlayerMood_Hope" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
@@ -6932,6 +6949,7 @@
             <Inputs />
             <Outputs>
               <Actor_EvolveTraits ActorIndex="4" Event="HOPE" EventLogOutput="Mission" />
+              <Actor_AddExpertisePoints ActorIndex="4" Expertise="Survival" Points="50" /> <!-- ADDED -->
             </Outputs>
           </Action>
           <Action ActionFlags="" ActionId="BlackoutComMissions" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
