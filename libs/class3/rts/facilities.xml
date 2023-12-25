@@ -75,7 +75,7 @@
               <Effects />
               <Inputs>
                 <CheckBool InputFlags="Required, HideAction, Hidden" InputId="!Status.Recent.Broadcast" Invert="" />
-                <Spend InputAmount="20" InputFlags="" InputId="Family.Influence" />
+                <Spend InputAmount="40" InputFlags="" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="20 -->
               </Inputs>
               <Outputs>
                 <Scene_ScenePlay Scene="activity_NewOppResources" SceneReason="Activity" />
@@ -106,7 +106,7 @@
               <Effects />
               <Inputs>
                 <CheckBool InputFlags="Required, HideAction, Hidden" InputId="!Status.Recent.Broadcast" Invert="" />
-                <Spend InputAmount="20" InputFlags="" InputId="Family.Influence" />
+                <Spend InputAmount="40" InputFlags="" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="20 -->
               </Inputs>
               <Outputs>
                 <Scene_ScenePlay Scene="activity_NewOppResources" SceneReason="Activity" />
@@ -137,7 +137,7 @@
               <Effects />
               <Inputs>
                 <CheckBool InputFlags="Required, HideAction, Hidden" InputId="!Status.Recent.Broadcast" Invert="" />
-                <Spend InputAmount="20" InputFlags="" InputId="Family.Influence" />
+                <Spend InputAmount="40" InputFlags="" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="20 -->
               </Inputs>
               <Outputs>
                 <Scene_ScenePlay Scene="activity_NewOppResources" SceneReason="Activity" />
@@ -168,7 +168,7 @@
               <Effects />
               <Inputs>
                 <CheckBool InputFlags="Required, HideAction, Hidden" InputId="!Status.Recent.Broadcast" Invert="" />
-                <Spend InputAmount="20" InputFlags="" InputId="Family.Influence" />
+                <Spend InputAmount="40" InputFlags="" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="20 -->
               </Inputs>
               <Outputs>
                 <Scene_ScenePlay Scene="activity_NewOppResources" SceneReason="Activity" />
@@ -199,7 +199,7 @@
               <Effects />
               <Inputs>
                 <CheckBool InputFlags="Required, HideAction, Hidden" InputId="!Status.Recent.Broadcast" Invert="" />
-                <Spend InputAmount="20" InputFlags="" InputId="Family.Influence" />
+                <Spend InputAmount="40" InputFlags="" InputId="Family.Influence" /> <!-- DEFAULT: InputAmount="20 -->
               </Inputs>
               <Outputs>
                 <Scene_ScenePlay Scene="activity_NewOppResources" SceneReason="Activity" />
